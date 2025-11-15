@@ -33,10 +33,10 @@ From the repository root:
 python scripts/generate_kit_catalog.py
 ```
 
-Or use the PowerShell helper script:
+Or use the shell script wrapper:
 
-```powershell
-.\scripts\update_catalog.ps1
+```bash
+./scripts/update_catalog.sh
 ```
 
 ### Output
@@ -45,36 +45,16 @@ Or use the PowerShell helper script:
 - **kits/kit_catalog_section.md**: Categorized sections (Easy/Medium/Advanced)
 - **README.md**: Kit Catalog section automatically updated
 
-## insert_catalog.ps1
-
-PowerShell script to manually insert the catalog section into README.md (if needed).
-
-### Usage
-
-```powershell
-.\scripts\insert_catalog.ps1
-```
-
-**Note:** The main `generate_kit_catalog.py` script already updates README.md automatically, so this is only needed for manual fixes.
-
-## insert_catalog_into_readme.py
-
-Python script to manually insert the catalog section into README.md (if needed).
-
-### Usage
-
-```bash
-python scripts/insert_catalog_into_readme.py
-```
-
-**Note:** The main `generate_kit_catalog.py` script already updates README.md automatically.
+---
 
 ### Workflow
 
 1. Update `kits/kits_catalog.yml` with new kits or changes
-2. Run `python scripts/generate_kit_catalog.py` (or `.\scripts\update_catalog.ps1`)
+2. Run `python scripts/generate_kit_catalog.py` (or `./scripts/update_catalog.sh`)
 3. **Done!** All files are automatically generated and README.md is updated
 4. Commit all changes together
+
+---
 
 ### Kit Categories
 

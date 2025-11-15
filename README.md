@@ -269,7 +269,6 @@ kW-class boards with complex topologies (LLC, PSFB, bidirectional, PFC+LLC).
 > **Note:** Not all kits have folders yet. Contributions welcome! Use [`KIT_README_TEMPLATE.md`](templates/KIT_README_TEMPLATE.md) to add one.
 
 
-
 ---
 
 ## Contributing
